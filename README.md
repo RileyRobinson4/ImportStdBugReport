@@ -1,3 +1,6 @@
+# ImportStdBugReport
+The repo contains a minimal example of exposing the problem with not having libc++ in RHEL when using import std; in c++.
+
 ## Build Container
 ```podman build -t redhat-bug-report -f Containerfile .```
 ## Run Container (Build Code)
